@@ -32,9 +32,10 @@
     
     "theme": {
         "colors": {
+            "header":"rgba(80, 55, 240, 0.9)",
             "border":"#333",
             "primary": "#413c98",
-            "secondary":"#4a47a3",
+            "secondary":"rgba(91, 50, 255, 0.6)",
             "mainBg":"#888",
             "contrastText":"#fff",
             "wrong":"#ff3055",
