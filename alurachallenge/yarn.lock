@@ -1216,6 +1216,11 @@ native-url@0.3.4:
   dependencies:
     querystring "^0.2.0"
 
+next.js@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/next.js/-/next.js-1.0.3.tgz#b7d5a4c6e241c3d914c94007aa4f31d108799fa8"
+  integrity sha1-t9WkxuJBw9kUyUAHqk8x0Qh5n6g=
+
 next@latest:
   version "10.0.7"
   resolved "https://registry.yarnpkg.com/next/-/next-10.0.7.tgz#442f8e1da7454de33b0bbcc1ce5684b923597ee6"
