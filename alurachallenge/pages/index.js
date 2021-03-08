@@ -1,15 +1,19 @@
 import styled from 'styled-components'
 import Widget from '../src/components/Widget';
+import Footer from '../src/components/Footer';
+import GitHubCorner from '../src/components/GithubCorner';
+import QuizLogo from '../src/components/QuizLogo';
+import QuizBackground from '../src/components/QuizBackground';
 
 import db from '../db.json';
 
-export const BackgroundImage = styled.div`
+/*export const BackgroundImage = styled.div`
   background-image:url(${db.bg});
   flex:1;
   background-size:cover;
   background-position:right;
 `;
-
+*/
 export const QuizContainer = styled.div`
   width: 100%;
   max-width:21rem; 
@@ -27,7 +31,7 @@ export const QuizContainer = styled.div`
 
 export default function Home() {
   return (
-   <BackgroundImage>
+   <QuizBackground backgroundImage={db.bg}>
      <QuizContainer>
 
       <Widget>
@@ -46,10 +50,10 @@ export default function Home() {
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit....</p>
         </Widget.Content>
       </Widget>
-
-
+      <Footer />
      </QuizContainer>
-   </BackgroundImage>
+     <GitHubCorner projectUrl="https://github.com/Gabysx" position="left" />
+   </QuizBackground>
 
   );
 }
