@@ -33,7 +33,7 @@ Widget.Header = styled.header`
   justify-content: flex-start;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.header};
  
   *{
     margin:0;
