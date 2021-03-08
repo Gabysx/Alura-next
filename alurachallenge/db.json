@@ -1,30 +1,43 @@
-{ "background":"",
-    "title":"Título do Quiz",
-    "description":"Descrição do Quiz",
-    "question": [
-        {
-            "image":"",
-            "title":"",
-            "description":"",
-            "answer":1,
-            "alternatives":[
-                "alternativa A",
-                "alternativa B",
-                "alternativa C",
-                "alternativa D"
-            ]
-        }
+{
+    "bg": "https://image.tmdb.org/t/p/original/ndGAaJj9jRrAYEYcCVCD2qoCS7Q.jpg",
+    "title": "Quiz CSS da Alura",
+    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+    "questions": [
+      {
+        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "title": "Como fazer um seletor por id via CSS?",
+        "description": "Essa é pra aquecer",
+        "answer": 2,
+        "alternatives": [
+          ".elemento",
+          "*elemento",
+          "#elemento",
+          "%elemento"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+        "title": "Como fazer um background gradiente com css?",
+        "description": "Faz tempo em haha",
+        "answer": 0,
+        "alternatives": [
+           "background: linear-gradient(#e66465, #9198e5);",
+           "background: gradient(#e66465, #9198e5);"
+        ]
+      }
+    ],
+    "external": [
+      ""
     ],
     
     "theme": {
         "colors": {
-            "primary": "413c69",
-            "secondary":"4a47a3",
-            "mainBg":"",
-            "contrasrText":"",
-            "wrong":"",
-            "sucess":""
-    
+            "primary": "#413c85",
+            "secondary":"#4a47a3",
+            "mainBg":"#1c1614",
+            "contrasrText":"#fff",
+            "wrong":"#ff3055",
+            "sucess":"#4caf50"
         },
         "borderRadius":"4px"
     }
