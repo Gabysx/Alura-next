@@ -5,7 +5,7 @@ const Widget = styled.div`
   margin-top: 2rem;
   margin-bottom: 2.5rem;
   border: 1px solid ${({ theme }) => theme.colors.border};
-  background-color: ${({ theme }) => theme.colors.mainBg};
+  background-color: ${({ theme }) => theme.colors.card};
   border-radius: 4px;
   overflow: hidden;
 
