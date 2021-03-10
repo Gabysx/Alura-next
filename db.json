@@ -32,7 +32,8 @@
     
     "theme": {
         "colors": {
-            "header":"rgba(80, 55, 240, 0.9)",
+            "card":"#393e46",
+            "header":"#4a47a3",
             "border":"#333",
             "primary": "#413c98",
             "secondary":"rgba(91, 50, 255, 0.6)",
