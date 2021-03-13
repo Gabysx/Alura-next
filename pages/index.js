@@ -28,6 +28,7 @@ export default function Home() {
    <QuizBackground backgroundImage={db.bg}>
       <Head>
         <title>Alura Quiz - Imersão</title>  
+        
       </Head>
 
      <QuizContainer>
