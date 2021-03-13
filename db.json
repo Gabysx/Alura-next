@@ -1,5 +1,6 @@
 {
     "bg": "https://image.tmdb.org/t/p/original/ndGAaJj9jRrAYEYcCVCD2qoCS7Q.jpg",
+    "bgQuiz": "https://images7.alphacoders.com/856/thumb-1920-856377.jpg",
     "title": "Quiz CSS da Alura",
     "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
     "questions": [
