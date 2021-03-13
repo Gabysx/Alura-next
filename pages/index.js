@@ -3,6 +3,8 @@ import Widget from '../src/components/Widget';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GithubCorner';
 import QuizBackground from '../src/components/QuizBackground';
+import Head from 'next/head'
+
 
 import db from '../db.json';
 
@@ -24,6 +26,10 @@ export const QuizContainer = styled.div`
 export default function Home() {
   return (
    <QuizBackground backgroundImage={db.bg}>
+      <Head>
+        <title>Alura Quiz - Imersão</title>  
+      </Head>
+
      <QuizContainer>
 
       <Widget>
