@@ -25,6 +25,11 @@ const FooterWrapper = styled.footer`
       font-weight:550;
     }
   }
+
+  &:hover,
+    &:focus {
+        opacity: .8;
+    }
 `;
 
 export default function Footer(props) {

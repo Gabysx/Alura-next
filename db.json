@@ -41,7 +41,8 @@
             "mainBg":"#888",
             "contrastText":"#fff",
             "wrong":"#ff3055",
-            "sucess":"#4caf50"
+            "sucess":"#4caf50",
+            "borderadius":"#fff"
         },
         "borderRadius":"4px"
     }

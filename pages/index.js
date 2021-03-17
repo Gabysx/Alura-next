@@ -8,7 +8,9 @@ import Widget from '../src/components/Widget';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GithubCorner';
 import QuizBackground from '../src/components/QuizBackground';
-import QuizLogo from '../src/components/QuizLogo/index';
+import QuizLogo from '../src/components/QuizLogo';
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
 
 export const QuizContainer = styled.div`
   width: 100%;
@@ -49,19 +51,18 @@ export default function Home() {
               // router manda para próxima pagina
             }}
             >
-              <input
-                onChange={function (infosDoEvento) {
+              <Input
+                name="nomeDoUsuario"
+                onChange={(infosDoEvento) => {
                   setName(infosDoEvento.target.value);
                   console.log(infosDoEvento.target.value);
                 }}
                 placeholder="Qual seu nome?"
-
+                value={name}
               />
-              <button type="submit" disable={setName.length === 0}>
-                Jogar
-                {name}
-              </button>
-
+              <Button type="submit" disabled={setName.length === 0}>
+                {`Jogar ${name}`}
+              </Button>
             </form>
           </Widget.Content>
         </Widget>
