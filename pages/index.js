@@ -15,7 +15,7 @@ import Button from '../src/components/Button';
 export const QuizContainer = styled.div`
   width: 100%;
   max-width:21rem; 
-  padding-top: 4rem; 
+  padding-top: 2rem; 
   margin: auto 15%;
   align-items: center;
 
